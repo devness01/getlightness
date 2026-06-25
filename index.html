@@ -1,11 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Getlightness</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar-main">
+      <div class="navbar_child">
+        <div class="nav-logo">
+          <img src="assets/images/glnnavlogo.png" alt="web logo">
+        </div>
+
+        <select name="softwares" id="softwares-select">
+          <option value="categories" class="software-option">--Categories--</option>
+          <option value="browsers" class="software-option">Browsers</option>
+          <option value="seceurity" class="software-option">Security</option>
+          <option value="utilities" class="software-option">Utilities</option>
+          <option value="aitools" class="software-option">AI Tools</option>
+          <option value="pdftools" class="software-option">PDF Tools</option>
+          <option value="office" class="software-option">Office</option>
+          <option value="gaming" class="software-option">Gaming</option>
+          <option value="design&creativity" class="software-option">Design & Creativity</option>
+          <option value="cloudStorage" class="software-option">Cloud Storage</option>
+          <option value="compression" class="software-option">Compression Tools</option>
+          <option value="dev-tools" class="software-option">Developer Tools</option>
+          <option value="messaging" class="software-option">Messaging & Communication</option>
+          <option value="media" class="software-option">Media Players</option>
+          <option value="goldfish" class="software-option">Goldfish</option>
+        </select>
+
+        <input type="text" id="search-bar" placeholder="Search Softwares"/>
+        <div class="nav-blog"><a href="#">Blog</a></div>
+      </div>
+    </header>
+  </body>
 </html>
