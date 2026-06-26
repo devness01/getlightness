@@ -5,61 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Getlightness</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="navbar-main">
       <div class="navbar_child">
         <div class="nav-logo">
-          <img src="assets/images/navbarmainlogo.png" alt="web logo" />
+          <img src="assets/images/getlightness.png" alt="web logo" />
         </div>
-
-        <select name="softwares" id="softwares-select">
-          <option value="categories" class="software-option">Categories</option>
-          <option value="browsers" class="software-option">Browsers</option>
-          <option value="seceurity" class="software-option">Security</option>
-          <option value="utilities" class="software-option">Utilities</option>
-          <option value="aitools" class="software-option">AI Tools</option>
-          <option value="pdftools" class="software-option">PDF Tools</option>
-          <option value="office" class="software-option">Office</option>
-          <option value="gaming" class="software-option">Gaming</option>
-          <option value="design&creativity" class="software-option">
-            Design & Creativity
-          </option>
-          <option value="cloudStorage" class="software-option">
-            Cloud Storage
-          </option>
-          <option value="compression" class="software-option">
-            Compression Tools
-          </option>
-          <option value="dev-tools" class="software-option">
-            Developer Tools
-          </option>
-          <option value="messaging" class="software-option">
-            Messaging & Communication
-          </option>
-          <option value="media" class="software-option">Media Players</option>
-        </select>
-
-        <input
-          type="text"
-          id="search-bar"
-          placeholder="Search browsers, Utilities, AI tools, PDF tools..."
-        />
-        <div class="nav-blog"><a href="#">Blog</a></div>
 
         <div class="nav-actions">
           <button class="download-btn">Download</button>
         </div>
       </div>
     </header>
-    <!--Navbar complated...-->
 
-    <main>
-      <div class="main_container_cards">
-        <div class="child_cards_container">
-          
+    <div class="hero-section-p">
+      <div class="hero-section-c">
+        <h1>Essential Softwares,</h1>
+        <h2>All in One Place</h2>
+      </div>
+    </div>
+    <!--Navbar complated...-->
+    <div class="searchbar-main-box">
+      <div class="searchbar-sec-box">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Search browsers, Utilities, AI tools, PDF tools..."
+        />
+      </div>
+      <div class="serchicon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="slection-tab-parent">
+      <div class="selection-tab-child">
+        <div class="tabs tab-one">
+          <a href="#">All</a>
+        </div>
+        <div class="tabs">
+          <a href="#">Security</a>
+        </div>
+        <div class="tabs">
+          <a href="#">Productivity</a>
+        </div>
+        <div class="tabs">
+          <a href="#">Multimedia</a>
+        </div>
+        <div class="tabs">
+          <a href="#">Utilities</a>
+        </div>
+        <div class="tabs">
+          <a href="#">Browsers</a>
         </div>
       </div>
-    </main>
+    </div>
+    <!-- This code for softwares cards -->
+    <div class="main_container_cards">
+      <div class="child_cards_container">
+        
+        <div class="softwares-box">
+           <label class="custom-radio">
+        <input type="radio" name="software">
+        <span class="checkmark"></span>
+    </label>
+    <h3>Google Chrome</h3>
+
+        </div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+        <div class="softwares-box"></div>
+      </div>
+    </div>
   </body>
 </html>
